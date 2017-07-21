@@ -3,7 +3,21 @@ import turtle
 
 
 def main():
+    
     bob = turtle.Turtle()
+    
+    def makeLoopyStuff(pensize = 1000, initPlace = False):
+        if initPlace:  bob.goto(-675,350)
+        for i in range(20):
+            pensize = pensize + 1000
+            bob.backward(100)
+            bob.color("black")
+            degree = int(pensize/i)
+            bob.right(degree)
+            bob.forward(100)
+    
+    makeLoopyStuff(initPlace = True)
+    
     bob.goto(-675,350)
     bob.goto(-675,0)
     bob.backward(10)
