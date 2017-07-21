@@ -1104,4 +1104,4 @@ turtle.TurtleGraphicsError: bad color string: whtie
 >>> bob.dot(10,"white")
 >>> bob.backward(50)
 >>> bob.color("black")
->>> 
+
