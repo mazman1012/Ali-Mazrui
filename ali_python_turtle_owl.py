@@ -1,3 +1,4 @@
+import time
 import turtle
 
 
@@ -978,6 +979,9 @@ def main():
     bob.dot(10,"white")
     bob.backward(50)
     bob.color("black")
+    print("yeaaaaaaah")
+    time.sleep(5)
+
 
 if __name__ == '__main__':
     main()
